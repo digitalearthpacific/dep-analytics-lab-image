@@ -3,10 +3,6 @@ name: Image Build and Push
 env:
   IMAGE_NAME: ${{ github.repository }}
 
-permissions:
-  contents: read
-  packages: write
-
 on:
   pull_request:
   push:
@@ -19,6 +15,11 @@ on:
 jobs:
   python:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -46,6 +47,14 @@ jobs:
           tags: ghcr.io/${{ env.IMAGE_NAME }}:test
           cache-from: type=gha
           cache-to: type=gha,mode=max
+      
+      - name: Log in to the Container registry
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1
+        with:
+          registry: "ghcr.io"
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push
         if: github.event_name != 'pull_request'
