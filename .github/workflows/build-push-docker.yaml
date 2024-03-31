@@ -1,7 +1,11 @@
-name : Image Build and Push
+name: Image Build and Push
 
 env:
   IMAGE_NAME: ${{ github.repository }}
+
+permissions:
+  contents: read
+  packages: write
 
 on:
   pull_request:
@@ -16,7 +20,6 @@ jobs:
   python:
     runs-on: ubuntu-latest
     steps:
-
       - name: Checkout code
         uses: actions/checkout@v4
         with:
@@ -31,8 +34,8 @@ jobs:
       - name: Get version number for tagging the image
         id: get_version
         run: |
-            git fetch --all --tags
-            echo "VERSION=$(git describe --tags)" >> $GITHUB_OUTPUT
+          git fetch --all --tags
+          echo "VERSION=$(git describe --tags)" >> $GITHUB_OUTPUT
 
       - name: Build and don't push
         if: github.event_name == 'pull_request'
