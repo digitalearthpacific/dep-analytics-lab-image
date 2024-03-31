@@ -64,7 +64,7 @@ dependencies:
   - jupyter-panel-proxy
   - jupyter-resource-usage
   - jupyter-server-proxy>=4.1.2
-  - jupyterlab-code-formatter
+  - jupyterlab_code_formatter
   - jupyterlab-geojson
   - jupyterlab-git
   - leafmap>=0.7.6
