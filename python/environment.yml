@@ -12,7 +12,8 @@ dependencies:
   - nbgitpuller =1.2.0
 
   # Get some delicious VS Code in there
-  - code-server
+  # Installing code-server in postBuild so it's more up-to-date
+  # - code-server
   - jupyter-vscode-proxy
 
   - pip>=20

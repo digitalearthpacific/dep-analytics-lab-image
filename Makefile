@@ -4,4 +4,4 @@ build-python:
 
 lock-python:
 	cd python && \
-	conda-lock -f environment.yml -p linux-64
+	conda-lock -f environment.yml --lockfile conda-lock.yml -p linux-64

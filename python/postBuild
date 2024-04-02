@@ -1,6 +1,10 @@
 #!/bin/bash
 set -euo pipefail
 
+echo "Install code-server's latest version"
+curl -fsSL https://code-server.dev/install.sh | sh
+
+
 echo "Installing code-server extensions..."
 
 code-server --install-extension ms-python.python
