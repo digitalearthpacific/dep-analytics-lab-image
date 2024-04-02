@@ -13,7 +13,7 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: f003d37ffc52beaf24876a4813c4b164bf57112d8fe585c7e7d7967173c76545
+    linux-64: c4df4112093e0044334b0ef41c486db1a312cfb380c6fca226bbf2ae52cf580d
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -1437,6 +1437,21 @@ package:
     sha256: ec73372b3945634920c115f9d04b4543cc2d459c583df329aa32be813ca21380
   category: main
   optional: false
+- name: cattrs
+  version: 23.2.3
+  manager: conda
+  platform: linux-64
+  dependencies:
+    attrs: '>=23.1.0'
+    exceptiongroup: '>=1.1.1'
+    python: '>=3.8'
+    typing-extensions: '>=4.1.0,!=4.6.3'
+  url: https://conda.anaconda.org/conda-forge/noarch/cattrs-23.2.3-pyhd8ed1ab_0.conda
+  hash:
+    md5: 91fc4700dcce4a46d439900a132fe4e5
+    sha256: 7fbcf6487856c4b777926112dccc3385cbd2eeae181825f77eed261abe83c1df
+  category: main
+  optional: false
 - name: cchardet
   version: 2.1.7
   manager: conda
@@ -2380,6 +2395,18 @@ package:
   hash:
     md5: 235523955bc1bfb019d7ec8a2bb58f9a
     sha256: b6cb37e2bf076c5098d3fadff83438885233d51b0d305eb914cc6a7f88cdb9bc
+  category: main
+  optional: false
+- name: docstring-to-markdown
+  version: '0.15'
+  manager: conda
+  platform: linux-64
+  dependencies:
+    python: '>=3.7'
+  url: https://conda.anaconda.org/conda-forge/noarch/docstring-to-markdown-0.15-pyhd8ed1ab_0.conda
+  hash:
+    md5: a3a1e6af2926a3affcd6f2072871f551
+    sha256: 0c640c23785f0fb41e4c3dd815cce22efd14230a6ebc08275ce1a484e480e476
   category: main
   optional: false
 - name: docutils
@@ -4324,6 +4351,24 @@ package:
   hash:
     md5: 81a3be0b2023e1ea8555781f0ad904a2
     sha256: 362f0936ef37dfd1eaa860190e42a6ebf8faa094eaa3be6aa4d9ace95f40047a
+  category: main
+  optional: false
+- name: jedi-language-server
+  version: 0.41.3
+  manager: conda
+  platform: linux-64
+  dependencies:
+    cattrs: '>=23.1.2'
+    docstring-to-markdown: '>=0.4,<1.0'
+    jedi: '>=0.19.1,<0.20.0'
+    lsprotocol: '>=2022.0.0a9'
+    pygls: '>=1.1.0,<2.0.0'
+    python: '>=3.8'
+    typing_extensions: '>=4.5.0,<5.0.0'
+  url: https://conda.anaconda.org/conda-forge/noarch/jedi-language-server-0.41.3-pyhd8ed1ab_0.conda
+  hash:
+    md5: fbc7081cf8fc2d7015253be7c50cf7c8
+    sha256: 4bc7a73ac4964fa0cdeecfe9f27c4af24bf961f6965fb58d1780120392d4423d
   category: main
   optional: false
 - name: jinja2
@@ -6731,6 +6776,20 @@ package:
     sha256: 9afe0b5cfa418e8bdb30d8917c5a6cec10372b037924916f1f85b9f4899a67a6
   category: main
   optional: false
+- name: lsprotocol
+  version: 2023.0.1
+  manager: conda
+  platform: linux-64
+  dependencies:
+    attrs: '>=21.3.0'
+    cattrs: '!=23.2.1'
+    python: '>=3.7'
+  url: https://conda.anaconda.org/conda-forge/noarch/lsprotocol-2023.0.1-pyhd8ed1ab_0.conda
+  hash:
+    md5: 9a540725973d27fc0b4101585a8fdfa8
+    sha256: 163564614a24807504dc33a9ddeb470d511f900f62aa84e323d651ef6d26086d
+  category: main
+  optional: false
 - name: lz4
   version: 4.3.3
   manager: conda
@@ -8872,6 +8931,20 @@ package:
   hash:
     md5: 3e94f020268f6bd6c4a8a52b81aeee84
     sha256: a31812c6f9cf621459fa8991d53b7e887483a57ace65e47fb4336cd638a20328
+  category: main
+  optional: false
+- name: pygls
+  version: 1.3.1
+  manager: conda
+  platform: linux-64
+  dependencies:
+    cattrs: '>=23.1.2'
+    lsprotocol: 2023.0.1
+    python: '>=3.8'
+  url: https://conda.anaconda.org/conda-forge/noarch/pygls-1.3.1-pyhd8ed1ab_0.conda
+  hash:
+    md5: 1503700d2ecae45a19d02c6d3592f982
+    sha256: 9aace0a9c8f30cea5908e85e8f6a24663c98c27c11b1d0cdc5892062eabc6811
   category: main
   optional: false
 - name: pygments
