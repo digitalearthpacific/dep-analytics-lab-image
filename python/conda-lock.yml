@@ -13,7 +13,7 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: 2e2622558f0b3a0b594397dad3e8ed51c6302ac5937096c01df8e3f1b548f1d2
+    linux-64: f003d37ffc52beaf24876a4813c4b164bf57112d8fe585c7e7d7967173c76545
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -4695,7 +4695,7 @@ package:
   category: main
   optional: false
 - name: jupyterhub-base
-  version: 3.0.0
+  version: 4.1.4
   manager: conda
   platform: linux-64
   dependencies:
@@ -4713,28 +4713,28 @@ package:
     python: '>=3.7'
     python-dateutil: ''
     requests: ''
-    sqlalchemy: '>=1.1'
+    sqlalchemy: '>=1.4'
     tornado: '>=5.1'
     traitlets: '>=4.3.2'
-  url: https://conda.anaconda.org/conda-forge/noarch/jupyterhub-base-3.0.0-pyh2a2186d_1.tar.bz2
+  url: https://conda.anaconda.org/conda-forge/noarch/jupyterhub-base-4.1.4-pyh31011fe_0.conda
   hash:
-    md5: d8efff056998d68e411246ca8fc20599
-    sha256: 299abd4e9aa8a48912cac451878c2346c678a327d064f23dc297ef97a33477d6
+    md5: d65db9892ad9b0f05bef6109a2cb7f31
+    sha256: 28436f184553f63a1f793ca1c2b6196287955378755ab49ea31245a1191fc007
   category: main
   optional: false
 - name: jupyterhub-singleuser
-  version: 3.0.0
+  version: 4.1.4
   manager: conda
   platform: linux-64
   dependencies:
     __unix: ''
-    jupyterhub-base: 3.0.0
+    jupyterhub-base: 4.1.4
     jupyterlab: '>=3.1'
     python: '>=3.7'
-  url: https://conda.anaconda.org/conda-forge/noarch/jupyterhub-singleuser-3.0.0-pyh2a2186d_1.tar.bz2
+  url: https://conda.anaconda.org/conda-forge/noarch/jupyterhub-singleuser-4.1.4-pyh31011fe_0.conda
   hash:
-    md5: 24d635991b94687abb2b6b2f9d43d5af
-    sha256: d7d70333165c9429e8404cb6f7509528b4f7c87b5e69c7a03d174ac527e18e8f
+    md5: 6193be81a0e66ea479b75f81f5c8f479
+    sha256: 77ec0b936078a9464e3e83054b84450f5374defbefcdcec5ada5c871dcf2e7eb
   category: main
   optional: false
 - name: jupyterlab

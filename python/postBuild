@@ -4,7 +4,7 @@ set -euo pipefail
 echo "Install code-server's latest version"
 wget https://github.com/coder/code-server/releases/download/v4.22.1/code-server_4.22.1_amd64.deb \
     -O /tmp/code-server.deb
-sudo dpkg -i /tmp/code-server.deb
+dpkg -i /tmp/code-server.deb
 rm -f /tmp/code-server.deb
 
 echo "Installing code-server extensions..."
