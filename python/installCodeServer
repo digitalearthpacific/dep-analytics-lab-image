@@ -2,7 +2,7 @@
 set -euo pipefail
 
 echo "Installing code-server"
-curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
+curl -fsSL https://code-server.dev/install.sh | sh
 
 echo "Installing code-server extensions..."
 code-server --install-extension ms-python.python
