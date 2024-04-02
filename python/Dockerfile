@@ -2,7 +2,7 @@ FROM pangeo/base-image:2024.03.22
 
 USER root
 
-RUN curl -fsSL https://code-server.dev/install.sh | sh
+RUN curl -fsSL https://code-server.dev/install.sh --version 4.19.1 | sh
 
 USER $NB_USER
 
