@@ -1,0 +1,14 @@
+#!/bin/bash
+set -euo pipefail
+
+echo "Installing code-server"
+curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
+
+echo "Installing code-server extensions..."
+code-server --install-extension ms-python.python
+code-server --install-extension ms-toolsai.jupyter
+code-server --install-extension charliermarsh.ruff
+# This includes the jedi language server... seems to not work!
+# code-server --install-extension kylinideteam.python
+
+echo "Done installing code-server extensions."
