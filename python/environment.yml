@@ -8,6 +8,9 @@ dependencies:
   # Code formatter and stuff
   - jedi-language-server
 
+  # Needed for dea-tools
+  - gcc_linux-64
+
   # CUSTOM STUFF FROM MSPC
   - python>=3.10.10
   - pangeo-dask =2024.03.18
