@@ -2,4 +2,5 @@ build-essential
 fish
 git
 htop
+ia32-libs
 jq
