@@ -1,4 +1,6 @@
 fish
+g++
 git
+gcc-multilib
 htop
 jq
