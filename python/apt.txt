@@ -1,6 +1,5 @@
+build-essential
 fish
-g++
 git
-gcc-multilib
 htop
 jq
