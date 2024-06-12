@@ -6,6 +6,9 @@ RUN wget https://code-server.dev/install.sh -O /tmp/install.sh && \
     sh /tmp/install.sh --version 4.19.1 && \
     rm /tmp/install.sh
 
+RUN LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH \
+    pip install git+https://github.com/opendatacube/odc-algo.git@add-rust-geomedian-impl
+
 USER $NB_USER
 
 RUN code-server --install-extension ms-python.python && \
