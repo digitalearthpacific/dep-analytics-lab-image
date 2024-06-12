@@ -2,3 +2,5 @@ fish
 git
 htop
 jq
+rustc
+cargo
