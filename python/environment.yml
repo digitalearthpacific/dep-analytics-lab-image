@@ -9,6 +9,7 @@ dependencies:
   - jedi-language-server
 
   # Compilers
+  - libgcc-ng
   - gcc_linux-64
   - gxx_linux-64
   - sysroot_linux-64
