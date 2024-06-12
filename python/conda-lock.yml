@@ -13,7 +13,7 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: 5aa1262f7df64ebdc7a903f662594c33d967e045205d5d4c4f51aa8bae60c883
+    linux-64: 400d76844f3977a85136ea97581c69dae9335661385e3659c4ed11aeb4433de6
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -10071,6 +10071,33 @@ package:
   hash:
     md5: 7865c897d89a39abc0056d89e37bd9e9
     sha256: b6a4b72ec2a59de0307fca0c699da6238391ee20deb2d121780d10559b5a61a3
+  category: main
+  optional: false
+- name: rust
+  version: 1.77.2
+  manager: conda
+  platform: linux-64
+  dependencies:
+    gcc_impl_linux-64: ''
+    libgcc-ng: '>=12'
+    libzlib: '>=1.2.13,<2.0.0a0'
+    rust-std-x86_64-unknown-linux-gnu: 1.77.2
+  url: https://conda.anaconda.org/conda-forge/linux-64/rust-1.77.2-h70c747d_1.conda
+  hash:
+    md5: 3c1c59e0515577dd985ae9eb8e70cca3
+    sha256: fc981fbc0a5e76fc5fbd6364bd079e114769e71a420c052881d9ae8f5a513b54
+  category: main
+  optional: false
+- name: rust-std-x86_64-unknown-linux-gnu
+  version: 1.77.2
+  manager: conda
+  platform: linux-64
+  dependencies:
+    __unix: ''
+  url: https://conda.anaconda.org/conda-forge/noarch/rust-std-x86_64-unknown-linux-gnu-1.77.2-h2c6d0dc_1.conda
+  hash:
+    md5: 116000ac370d62d9e9062d6e8ce8cd70
+    sha256: 6a82d49964c98f1510f4e27c50df33ce1abdd2ade2625b9133ce8e34b3819c75
   category: main
   optional: false
 - name: s2n

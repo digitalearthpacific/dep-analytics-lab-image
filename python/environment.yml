@@ -11,6 +11,10 @@ dependencies:
   # Compilers
   - gcc_linux-64
   - gxx_linux-64
+  - sysroot_linux-64
+
+  # Rust
+  - rust
 
   # CUSTOM STUFF FROM MSPC
   - python>=3.10.10
