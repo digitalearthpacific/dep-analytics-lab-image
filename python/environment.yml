@@ -8,6 +8,9 @@ dependencies:
   # Code formatter and stuff
   - jedi-language-server
 
+  # Install gcc compiler
+  - gcc
+
   # CUSTOM STUFF FROM MSPC
   - python>=3.10.10
   - pangeo-dask =2024.03.18
@@ -22,20 +25,15 @@ dependencies:
   - pip>=20
   - adlfs
   - awscli
-  - azure-data-tables
   - boto3
   - bottleneck
   - cartopy
-  - cchardet # workaround https://github.com/Azure/azure-sdk-for-python/issues/21516
   - cfgrib>=0.9.9.1
   - ciso
   - click
   - contextily
   - dask-cloudprovider
   - dask-kubernetes
-  - azure-cli-core # technically too old: https://github.com/conda-forge/azure-cli-core-feedstock/pull/15
-  - msrestazure
-  - azure-identity
   - dask-geopandas
   - dask-ml
   - datacube
