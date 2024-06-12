@@ -6,3 +6,5 @@ https://github.com/auspatious/datacube-compute/releases/download/0.0.3/datacube_
 # Needed for DEA Tools
 https://packages.dea.ga.gov.au/hdstats/hdstats-0.1.8.post1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 dea-tools
+# wofs for making wofs
+wofs
