@@ -8,6 +8,15 @@ dependencies:
   # Code formatter and stuff
   - jedi-language-server
 
+  # Compilers
+  - libgcc-ng
+  - gcc_linux-64
+  - gxx_linux-64
+  - sysroot_linux-64
+
+  # Rust
+  - rust
+
   # CUSTOM STUFF FROM MSPC
   - python>=3.10.10
   - pangeo-dask =2024.03.18
