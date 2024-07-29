@@ -3,7 +3,7 @@ FROM pangeo/base-image:2024.03.22
 USER root
 
 RUN wget https://code-server.dev/install.sh -O /tmp/install.sh && \
-    sh /tmp/install.sh --version 4.19.1 && \
+    sh /tmp/install.sh --version 4.91.1 && \
     rm /tmp/install.sh
 
 USER $NB_USER

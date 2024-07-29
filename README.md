@@ -7,4 +7,4 @@ These images are used in the DEP Analytics Lab.
 Some work in this repo comes from the
 [planetary computer](https://github.com/microsoft/planetary-computer-containers)
 team and is based on the
-[Pangeo Docker Images](https://github.com/pangeo-data/pangeo-docker-images).
+[Pangeo Docker images](https://github.com/pangeo-data/pangeo-docker-images).
