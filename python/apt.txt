@@ -3,3 +3,4 @@ fish
 git
 htop
 jq
+nano
