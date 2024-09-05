@@ -11,3 +11,7 @@ wofs
 # Web mappy-related stuff
 leafmap
 localtileserver
+# Misc. Utilities
+country-bounding-boxes
+openpyxl
+
