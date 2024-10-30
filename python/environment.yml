@@ -72,6 +72,7 @@ dependencies:
   - jupyterlab-geojson
   - jupyterlab-git
   - leafmap>=0.7.6
+  - lonboard
   - lz4
   - matplotlib-base
   - metpy
