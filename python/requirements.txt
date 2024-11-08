@@ -1,7 +1,7 @@
 boto3
 dask-ml
 scikit-learn>=1.5.0
-git+https://github.com/digitalearthpacific/dep-tools.git@add-s3-writer
+git+https://github.com/digitalearthpacific/dep-tools.git
 https://github.com/auspatious/datacube-compute/releases/download/0.0.3/datacube_compute-0.0.3-cp310-cp310-linux_x86_64.whl
 # Needed for DEA Tools
 https://packages.dea.ga.gov.au/hdstats/hdstats-0.1.8.post1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
