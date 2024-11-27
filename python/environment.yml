@@ -33,6 +33,7 @@ dependencies:
   - contextily
   - dask-cloudprovider
   - dask-kubernetes
+  - datacube-compute
   - azure-cli-core # technically too old: https://github.com/conda-forge/azure-cli-core-feedstock/pull/15
   - msrestazure
   - azure-identity
