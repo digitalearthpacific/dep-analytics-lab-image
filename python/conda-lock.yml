@@ -13,7 +13,7 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: 2c4243db18fe7fc6d06ae407652dc09537b7f258127f3a8a300d13d01d8fb3a7
+    linux-64: 0f59054c09dbd75467cf85d73a90c7b8db5806386dac2e7c577440ddc46990a5
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -2364,6 +2364,23 @@ package:
     sha256: 412284d3e94c2ac6e160a3731c7a54e67aed6fea4aa0c32bc94ea78377ebc9c2
   category: main
   optional: false
+- name: datacube-compute
+  version: 0.0.7
+  manager: conda
+  platform: linux-64
+  dependencies:
+    numpy: ''
+    python: ''
+    xarray: ''
+    __glibc: '>=2.17,<3.0.a0'
+    libgcc: '>=14'
+    python_abi: 3.10.*
+  url: https://conda.anaconda.org/conda-forge/linux-64/datacube-compute-0.0.7-py310hfb3c5d3_1.conda
+  hash:
+    md5: 798d178295e3015fa4923cee8d232243
+    sha256: c25ded68f8cc0d4dd1bef10523387ca892431e5f5075ce957871adb74b4695c4
+  category: main
+  optional: false
 - name: datashader
   version: 0.17.0
   manager: conda
@@ -3713,17 +3730,17 @@ package:
   category: main
   optional: false
 - name: glib-tools
-  version: 2.82.2
+  version: 2.84.0
   manager: conda
   platform: linux-64
   dependencies:
     __glibc: '>=2.17,<3.0.a0'
     libgcc: '>=13'
-    libglib: 2.82.2
-  url: https://conda.anaconda.org/conda-forge/linux-64/glib-tools-2.82.2-h4833e2c_1.conda
+    libglib: 2.84.0
+  url: https://conda.anaconda.org/conda-forge/linux-64/glib-tools-2.84.0-h4833e2c_0.conda
   hash:
-    md5: e2e44caeaef6e4b107577aa46c95eb12
-    sha256: 5d8a48abdb1bc2b54f1380d2805cb9cd6cd9609ed0e5c3ed272aef92ab53b190
+    md5: 2d876130380b1593f25c20998df37880
+    sha256: bb9124c26e382627f343ffb7da48d30eadb27b40d461b1d50622610e48c45595
   category: main
   optional: false
 - name: glog
@@ -3840,7 +3857,7 @@ package:
   category: main
   optional: false
 - name: google-crc32c
-  version: 1.7.0
+  version: 1.7.1
   manager: conda
   platform: linux-64
   dependencies:
@@ -3849,10 +3866,10 @@ package:
     libgcc: '>=13'
     python: '>=3.10,<3.11.0a0'
     python_abi: 3.10.*
-  url: https://conda.anaconda.org/conda-forge/linux-64/google-crc32c-1.7.0-py310hd027165_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/google-crc32c-1.7.1-py310hd027165_0.conda
   hash:
-    md5: 47d9501e1ede05becaeddcbc3d25ddaa
-    sha256: 316e03ddbb90e9955eb084e0974f7d7ad695ee42456fb2af332ad1393d2509d4
+    md5: 1ff21c47cc0d52d2989bdf37561c3e50
+    sha256: e23806c6b7e9e0038ba90e7635492c4dce776014a77dc4b052ddf8ed5e86707c
   category: main
   optional: false
 - name: google-resumable-media
@@ -4808,18 +4825,19 @@ package:
   category: main
   optional: false
 - name: jasper
-  version: 4.2.4
+  version: 4.2.5
   manager: conda
   platform: linux-64
   dependencies:
+    __glibc: '>=2.17,<3.0.a0'
     freeglut: '>=3.2.2,<4.0a0'
-    libgcc-ng: '>=12'
-    libglu: '>=9.0.0,<10.0a0'
+    libgcc: '>=13'
+    libglu: '>=9.0.3,<10.0a0'
     libjpeg-turbo: '>=3.0.0,<4.0a0'
-  url: https://conda.anaconda.org/conda-forge/linux-64/jasper-4.2.4-h536e39c_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/jasper-4.2.5-h1920b20_0.conda
   hash:
-    md5: 9518ab7016cf4564778aef08b6bd8792
-    sha256: 0a5ca92ea0261f435c27a3c3c5c5bc5e8b4b1af1343b21ef0cbc7c33b62f5239
+    md5: ec8824a45bd7c50a46788fa16216d6c2
+    sha256: 59a4de9d5daee552b901b0edef28a495016fb4a9d35d3b91d69fc9328a6159ee
   category: main
   optional: false
 - name: jdcal
@@ -6472,20 +6490,20 @@ package:
   category: main
   optional: false
 - name: libglib
-  version: 2.82.2
+  version: 2.84.0
   manager: conda
   platform: linux-64
   dependencies:
     __glibc: '>=2.17,<3.0.a0'
     libffi: '>=3.4,<4.0a0'
     libgcc: '>=13'
-    libiconv: '>=1.17,<2.0a0'
+    libiconv: '>=1.18,<2.0a0'
     libzlib: '>=1.3.1,<2.0a0'
     pcre2: '>=10.44,<10.45.0a0'
-  url: https://conda.anaconda.org/conda-forge/linux-64/libglib-2.82.2-h2ff4ddf_1.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/libglib-2.84.0-h2ff4ddf_0.conda
   hash:
-    md5: 37d1af619d999ee8f1f73cf5a06f4e2f
-    sha256: f0804a9e46ae7b32ca698d26c1c95aa82a91f71b6051883d4a46bea725be9ea4
+    md5: 40cdeafb789a5513415f7bdbef053cf5
+    sha256: 8e8737ca776d897d81a97e3de28c4bb33c45b5877bbe202b9b0ad2f61ca39397
   category: main
   optional: false
 - name: libglu
@@ -11113,18 +11131,18 @@ package:
   category: main
   optional: false
 - name: rpds-py
-  version: 0.23.1
+  version: 0.24.0
   manager: conda
   platform: linux-64
   dependencies:
     python: ''
-    __glibc: '>=2.17,<3.0.a0'
     libgcc: '>=13'
+    __glibc: '>=2.17,<3.0.a0'
     python_abi: 3.10.*
-  url: https://conda.anaconda.org/conda-forge/linux-64/rpds-py-0.23.1-py310hc1293b2_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/rpds-py-0.24.0-py310hc1293b2_0.conda
   hash:
-    md5: 55afda712d4c48108d993ded1bd4de9b
-    sha256: 775f9fe47c18f8c6c4cb706c7837cc04cdc18e6a748fd8964e132d8329975eea
+    md5: 2170ed457a6427f37c90104f6a63437d
+    sha256: b0c896af1d8ce85d7948624664d87bd9286223ea5a19884d6f295d37d5cd4e0f
   category: main
   optional: false
 - name: rsa
