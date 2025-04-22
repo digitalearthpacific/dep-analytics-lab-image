@@ -69,6 +69,7 @@ dependencies:
   - jupyter-panel-proxy
   - jupyter-resource-usage
   - jupyter-server-proxy
+  - jupytergis
   - jupyterlab_code_formatter
   - jupyterlab-geojson
   - jupyterlab-git
