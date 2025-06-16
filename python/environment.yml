@@ -10,7 +10,7 @@ dependencies:
 
   # CUSTOM STUFF FROM MSPC
   - python =3.10
-  - pangeo-dask =2024.03.18
+  - pangeo-dask >=2025.02.14
   - dask-labextension =7.0.0
   - ipywidgets =8.1.2
   - jupyter-server-proxy =4.1.4
