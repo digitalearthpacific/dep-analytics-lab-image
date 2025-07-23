@@ -3,7 +3,7 @@ dask-ml
 scikit-learn>=1.5.0
 git+https://github.com/digitalearthpacific/dep-tools.git
 # Needed for DEA Tools
-https://packages.dea.ga.gov.au/hdstats/hdstats-0.1.8.post1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+https://packages.dea.ga.gov.au/hdstats/hdstats-0.1.8.post1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 dea-tools
 # wofs for making wofs
 wofs
