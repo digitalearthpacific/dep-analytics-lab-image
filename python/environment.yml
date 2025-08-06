@@ -84,6 +84,7 @@ dependencies:
   - numcodecs
   - numexpr=*=mkl* # https://github.com/conda-forge/numexpr-feedstock/issues/38#issuecomment-2366841133
   - numpy
+  - obstore
   - odc-algo
   - odc-geo
   - odc-stac>=0.3.2
