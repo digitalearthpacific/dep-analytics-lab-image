@@ -1,7 +1,7 @@
 boto3
 dask-ml
 scikit-learn>=1.5.0
-git+https://github.com/digitalearthpacific/dep-tools.git
+git+https://github.com/digitalearthpacific/dep-tools.git@v0.5.2
 # Needed for DEA Tools
 https://packages.dea.ga.gov.au/hdstats/hdstats-0.1.8.post1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 dea-tools
